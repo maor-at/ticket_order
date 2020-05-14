@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="mainPage.css" rel="stylesheet">
+
+    <script type="text/javascript" language="JavaScript"></script>
+    <script src="jQuery.js" type="text/javascript"></script>
+    <script src="main.js" type="text/javascript"></script>
+
+
+
+    <title>Ticket4U</title>
+</head>
+<body>
+<header class ="headerLeft" role="banner">
+
+    <ul class=" social-links list-inline1 unstyled1 ">
+
+        <li><a><div class="homePage" style = "width:10%"><img src="images/homePage.png"  id="img" width="50" height="50"></div>
+
+    </a> </li>
+        <li style="width:20%"><a>
+
+            <h1 class="logo">
+                <form name="login_form" method="post" id="form">
+                    שלום אורח,
+                    התחבר\הירשם לאתר
+                </form>
+                <button type = "button" id = "register">  הרשמה </button>
+                <button type = "button" id = "login">  התחברות </button>
+                <div id="shoppingCart"></div>
+                <div id="logOut"></div>
+                <div id ="register_login"> <button type = "button" id = "register_login_btn" class ="buttonMain hideThis">  הרשמה </button></div>
+
+            </h1>
+        </a></li>
+
+        <li style="width:70%"> <div class = "form-box" >
+            <button class = "search-btn" id="search" type="button">חפש</button>
+            <input type = "text" class="search-field" placeholder="טקסט חופשי" id="searchByString">
+            <input type = "date" class="search-field" placeholder="סנן לפי תאריך " id="searchByDate">
+            <input type = "text" class="search-field" placeholder="סנן לפי עיר " id="searchByCity">
+        </div></li>
+
+    </ul>
+
+    <header class="header" role="banner">
+
+        <div class="nav-wrap">
+            <nav class="main-nav" role="navigation">
+                <ul class="unstyled list-hover-slide">
+                    <li><a href="showSearch.html?showType=1">מופעי בידור וסטנדאפ</a></li>
+                    <li><a href="showSearch.html?showType=2">הצגות ילדים</a></li>
+                    <li><a href="showSearch.html?showType=3">מוסיקה והופעות חיות</a></li>
+                    <li><a href="showSearch.html?showType=4">פסטיבלים</a></li>
+                    <li><a href="showSearch.html?showType=5">הרצאות</a></li>
+                    <li><a href="showSearch.html?showType=6">תערוכות</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+</header>
+
+
+<div class = "shows" id="shows" >
+    <div class = "show-container show" id="show1"  >
+        <div class="front">
+            <div class="img-wrap">
+                <img src="images\פיטר הארנב - לונדון!.jpg" width="300" height="190" alt="פיטר הארנב - לונדון!">
+            </div>
+            <div class="name-a">
+                פיטר הארנב - לונדון!
+            </div>
+            <div class="subtitle-text"></div>
+            <div class="date-b">
+                <span class="day-a">יום&nbsp;רביעי</span>
+                <span class="date">25.03.2020</span>
+            </div>
+            <div class="place-a">
+                <img src="images/place-icon.png" alt="place">
+                <span class="location">היכל התרבות, באר שבע</span>
+            </div>
+        </div>
+        <div class = "button"> רכישה</div>
+    </div>
+
+    <div class = "show-container" id="show2" >
+        <div class="front">
+            <div class="img-wrap">
+                <img src="images\eliad.jpg" width="300" height="190" alt="אליעד במופע שקיעה">
+            </div>
+            <div class="name-a">
+                אליעד במופע שקיעה            </div>
+            <div class="subtitle-text"></div>
+            <div class="date-b">
+                <span class="day-a">יום&nbsp;שלישי</span>
+                <span class="date">31.03.2020</span>
+            </div>
+            <div class="place-a">
+                <img src="images/place-icon.png" alt="place">
+                <span class="location">המשכן לאומניות הבמה, באר שבע</span>
+            </div>
+        </div>
+        <div class = "button"> רכישה</div>
+    </div>
+
+    <div class = "show-container" id="show3">
+        <div class="front">
+            <div class="img-wrap">
+                <img src="images/בניה ברבי בהופעה חיה.jpg" width="300" height="190" alt="בניה ברבי בהופעה חיה">
+            </div>
+            <div class="name-a">
+                בניה ברבי בהופעה חיה            </div>
+            <div class="subtitle-text"></div>
+            <div class="date-b">
+                <span class="day-a">יום&nbsp;שני</span>
+                <span class="date">20.04.2020</span>
+            </div>
+            <div class="place-a">
+                <img src="images/place-icon.png" alt="place">
+                <span class="location">היכל התרבות, באר שבע</span>
+            </div>
+        </div>
+        <div class = "button"> רכישה</div>
+    </div>
+
+    <div class = "show-container" id="show4">
+        <div class="front">
+            <div class="img-wrap">
+                <img src="images/קובי מימון במופע סטנדאפ!.jpg" width="300" height="190" alt="!קובי מימון במופע סטנדאפ">
+            </div>
+            <div class="name-a">קובי מימון במופע סטנדאפ!</div>
+            <div class="subtitle-text"></div>
+            <div class="date-b">
+                <span class="day-a">יום&nbsp;ראשון</span>
+                <span class="date">22.03.2020</span>
+            </div>
+            <div class="place-a">
+                <img src="images/place-icon.png" alt="place">
+                <span class="location">מרכז הצעירים, באר שבע</span>
+            </div>
+        </div>
+        <div class = "button"> רכישה</div>
+    </div>
+
+
+    <div class = "show-container" id="show5">
+        <div class="front">
+            <div class="img-wrap">
+                <img src="images/הקומדי צחוק.jpg" width="300" height="190" alt="הקומדי צחוק">
+            </div>
+            <div class="name-a">
+                הקומדי צחוק            </div>
+            <div class="subtitle-text"></div>
+            <div class="date-b">
+                <span class="day-a">יום&nbsp;שני</span>
+                <span class="date">30.03.2020</span>
+            </div>
+            <div class="place-a">
+                <img src="images/place-icon.png" alt="place">
+                <span class="location">תיאטרון הבימה, תל אביב</span>
+            </div>
+        </div>
+        <div class = "button"> רכישה</div>
+    </div>
+
+
+
+    <div class = "show-container" id="show6">
+        <div class="front">
+            <div class="img-wrap">
+                <img src="images/גבעת חלפון אינה עונה - ההצגה.jpg" width="300" height="190" alt="גבעת חלפון אינה עונה - ההצגה">
+            </div>
+            <div class="name-a">
+                גבעת חלפון אינה עונה - ההצגה            </div>
+            <div class="subtitle-text"></div>
+            <div class="date-b">
+                <span class="day-a">יום&nbsp;חמישי</span>
+                <span class="date">28.05.2020</span>
+            </div>
+            <div class="place-a">
+                <img src="images/place-icon.png" alt="place">
+                <span class="location">מרכז הצעירים, ראשון לציון</span>
+            </div>
+        </div>
+        <div class = "button"> רכישה</div>
+    </div>
+
+
+
+</div>
+
+
+<ul id = "ticketList"></ul>
+
+
+</body>
+
+
+
+</html>
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jQuery.js" type="text/javascript"></script>
+    <script src="addNewShow.js" type="text/javascript"></script>
+    <link href="addNewShow.css" rel="stylesheet">
+</head>
+<body>
+<div id = "showRequest">
+<h4> הוספת הופעה חדשה</h4>
+<p>שם ההופעה : <input type="text" id ="showName" required> </p>
+<p>סוג ההופעה : <input list="showType" type="text" id ="showTypeInput" required>
+    <datalist id="showType">
+        <option value="מופעי בידור וסטנדאפ"></option>
+        <option value="הצגות ילדים"></option>
+        <option value="מוזיקה והופעות חיות"></option>
+        <option value="פסטיבלים"></option>
+        <option value="הרצאות"></option>
+        <option value="תערוכות"></option>
+    </datalist>
+ </p>
+<p>תאריך ההופעה : <input type="text" id ="date" required></p>
+<p>שעת ההופעה : <input type="text" id ="showHour" required></p>
+<p>תיאור ההופעה : <input type="text" id ="description" required> </p>
+<p>שם האולם:
+    <input type="checkbox" class="theaterName"  value="theaterFromDb">בחר מרשימה
+    <input type="checkbox" class="theaterName"  value="newTheater">הוסף תיאטרון
+<p>מיקום : <input type="text" id ="location" required></p>
+<div id ="seat"><p>סוג ההושבה : <input id="seatType" list="SeatingType" name ="SeatingType" required>
+<datalist id="SeatingType">
+    <option value="אוטומטי">
+    <option value="בחירת מושבים">
+</datalist>
+</p></div>
+<button id = "add-show"> הוסף </button>
+</div>
+</body>
+</html>
+

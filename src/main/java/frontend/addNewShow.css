@@ -1,0 +1,28 @@
+#showRequest
+{
+direction:rtl;
+position:fixed;
+left:35%;
+font-width:16px;
+font-weight: bold;
+}
+
+input[type="text"]
+ {
+    /* Firefox, Chrome, Opera */
+   text-align: right;
+  }
+  body
+  {
+    background:#A52A2A;
+  }
+
+  #add-show{
+  background:#d77420;
+  border: #d77420;
+  }
+    #add-show:hover
+    {
+       background: #ffc107;
+      cursor:pointer;
+    }

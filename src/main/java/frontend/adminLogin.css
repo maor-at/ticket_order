@@ -1,0 +1,32 @@
+#form
+{
+width=50%;float:right;text-align: right;
+
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 15;
+  top: 30%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+}
+input
+ {
+    /* Firefox, Chrome, Opera */
+   text-align: right;
+  }
+  body
+  {
+    background:#A52A2A;
+  }
+
+  .button
+  {
+    background:#d77420;
+    border: #d77420;
+  }
+  .button:hover
+  {
+     background: #ffc107;
+    cursor:pointer;
+  }

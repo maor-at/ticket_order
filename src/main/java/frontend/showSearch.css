@@ -1,0 +1,72 @@
+/* Create two equal columns that floats next to each other */
+.column {
+  float: right;
+  padding: 10px;
+  background-color:#bbb;
+  direction:rtl;
+  height:250px;
+  border-bottom: solid 5px #DF4500;
+    width: 100%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-color:#aaa;
+
+}
+
+.img-wrapper
+{
+height:10px;
+
+//position:relative;
+margin-right:600px;
+
+  }
+  .btn
+  {
+  //float:left;
+  margin-right:1050px;
+  margin-bottom:500px;
+  width:150px;
+  height:50px;
+  border: solid 3px #DF3500;
+  //display:inline-block;
+  cursor:pointer;
+  }
+
+  .description
+  {
+  float:right;
+  margin-top:-450px;
+  width:40%;
+  //display:inline-block;
+  }
+  .showTitle
+  {
+    float:right;
+    width:100%;
+  }
+
+  .headerShow {
+    //float: right;
+    //width: 20.5em;
+    //background: #35302D;
+      //height: 80%;
+       //margin-bottom: -1000px; /* any large number will do */
+        //padding-bottom: 1200px;
+      font: 200 2em "Source Sans Pro", Helvetica, Arial, sans-serif;
+              //font-weight: 500;
+
+
+  }
+.hideThis {
+    display: none;
+}
+
+.showThis {
+  display: block;
+}

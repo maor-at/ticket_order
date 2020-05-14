@@ -1,0 +1,125 @@
+<style type="text/css">
+    .Table
+    {
+        display: table;
+        direction:rtl;
+        float:right;
+    }
+    .Title
+    {
+        display: table-caption;
+        text-align: center;
+        font-weight: bold;
+        font-size: larger;
+    }
+    .Heading
+    {
+        display: table-row;
+        font-weight: bold;
+        text-align: center;
+    }
+    .Row
+    {
+        display: table-row;
+    }
+    .Cell
+    {
+        display: table-cell;
+        border: solid;
+        border-width: thin;
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: right;
+
+    }
+    .buttonCell
+    {
+            display: table-cell;
+            border: solid;
+            border-width: thin;
+
+    }
+
+        .CellBlack
+        {
+            display: table-cell;
+            border: solid;
+            border-width: thin;
+            background-color: black;
+        }
+
+    .RowCell
+    {
+        border: solid;
+        border-width: thin;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 100%;
+          text-align: right;
+          display:inline-block;
+
+    }
+
+      .RowCell >button
+      {
+         border: solid;
+         border-width: thin;
+        float:left;
+        background:#fc8405;
+        height:40px;
+        width:100px;
+        margin-top:8px;
+        margin-bottom:8px;
+      }
+      .RowCell span
+      {
+              margin-top:80px;
+
+      }
+
+      .RowCell >button:hover
+      {
+              background: #ffc107;
+              cursor: pointer;
+      }
+
+
+        .button {
+                    border: solid;
+            border-width: thin;
+                    width: 100%;
+                       float:right;
+                       display:inline-block;
+                       height:100%;
+        }
+
+.removeFromCart{
+                       width: 100%;
+                       height: 52px;
+    background:#fc8405;
+    }
+    .removeFromCart:hover
+    {
+        background: #ffc107;
+        cursor: pointer;
+    }
+/*
+    #purchase
+    {
+     border: solid;
+     border-width: thin;
+    float:left;
+    margin-bottom:10px;
+    height:50px;
+    width:130px;
+    margin-left: 30px;
+    background:#fc8405;
+    }
+    .purchase:hover
+    {
+        background: #ffc107;
+        cursor: pointer;
+    }
+*/
+
+</style>

@@ -1,0 +1,77 @@
+.ticketInput
+{
+margin-right:30px;
+    width: 2em;
+}
+
+.container
+{
+position:relative;
+text-align:center;
+margin-top:160px;
+}
+
+.summary
+{
+margin-top: 10px;
+border-width: thin;
+border-top : solid 3px;
+border-bottom : solid 3px;
+width:60%;
+margin-left:200px;
+}
+
+.row
+{
+margin-top: 20px;
+}
+
+.booking-details {float: right;width:250px;height: 450px; margin-right:5px;}
+.booking-details h3 {margin: 5px 5px 0 0;font-size: 20px;}
+.booking-details p{line-height:26px; font-size:20px; color:#999;direction:rtl; font-weight: bold;}
+.booking-details p span{ font-weight: normal;}
+
+
+#description
+{
+
+text-align: center;
+margin-top:20px;
+
+font-size:20px;
+ font-weight: bold;
+ margin-bottom:30px;
+ direction:rtl;
+}
+
+#showImage
+{
+
+text-align: center;
+margin-top:30px;
+width=200px;
+height=150px;
+margin-right:100px;
+}
+
+.summary >SPAN
+{
+float:right;
+}
+
+#purchase
+{
+    margin-top:10px;
+    background:#fc8405;
+}
+
+#purchase:hover
+ {
+        background: #ffc107;
+        cursor: pointer;
+ }
+
+ #showTime
+ {
+ border-right: 3px solid #ff7110;padding-right:10px;margin-right:10px;
+ }
